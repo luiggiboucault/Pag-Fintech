@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- meu css -->
+    <link rel="stylesheet" href="../css/style.css">
+
+    <title>Compras</title>
+</head>
+
+<body>
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+    </script>
+    <!-- barra de navegação -->
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-navbar">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="./principal.html">Fintech</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarNavDarkDropdown" aria-controls="navbarNavDarkDropdown" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button"
+                            aria-controls="offcanvasExample">
+                            Menu
+                        </a>
+
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div>
+        <h1 class="text-dark display-4 my-3 p-3 lead text-center ">
+            Histórico de Compras
+
+    </div>
+    <!-- OFFFCANVAS - SIDEBAR -->
+    <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+        <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasExampleLabel">NOME DO USUÁRIO</h5>
+            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+
+            <div class="mt-3">
+
+              
+            </div>
+        </div>
+    </div>
+
+    <div class="container pt-5">
+        <table class="table table-sm table-striped table-hover table-bordered text-center">
+            <thead class="table-dark">
+                <tr>
+                    <th scope="col">Data</th>
+                    <th scope="col">Compra</th>
+                    <th scope="col">Valor</th>
+                    <th scope="col">Hora</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row">07/06/2022</th>
+                    <td>Mc Donald's</td>
+                    <td>55.50</td>
+                    <td>12:34</td>
+                </tr>
+                <tr>
+                    <th scope="row">06/06/2022</th>
+                    <td>Carrefour</td>
+                    <td>105,25</td>
+                    <td>18:30</td>
+                </tr>
+                <tr>
+                    <th scope="row">05/06/2022</th>
+                    <td>Milk Shake</td>
+                    <td>12,00</td>
+                    <td>13:12</td>
+                </tr>
+                <tr>
+                    <th scope="row">04/06/2022</th>
+                    <td>Veran Supermercado</td>
+                    <td>135.80</td>
+                    <td>19:00</td>
+                </tr>
+        
+            </tbody>
+        </table>
+        <div class="btn-group" role="group" aria-label="Basic example">
+            <button type="button" class="btn btn-personalizado">Adicionar</button>
+            <button type="button" class="btn btn-personalizado">Alterar</button>
+            <button type="button" class="btn btn-personalizado">Excluir</button>
+        </div>
+    </div>
+    
+
+</body>
+
+</html>

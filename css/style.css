@@ -1,0 +1,34 @@
+.bg-navbar{
+    background-color: rgb(236, 145, 41);
+}
+
+.btn-personalizado{
+    background-color: rgb(236, 145, 41);
+    transition: 0.3s;
+}
+
+.btn-personalizado:hover{
+    background-color: rgba(236, 145, 41, 0.418);
+}
+
+.hero {
+    width: 100%;
+    height: 100vh;
+    padding: 0 10px;
+    background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, 0)),
+        url(../images/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.exemplo{
+    float: left;
+    width: 100%;
+}
+
